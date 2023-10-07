@@ -1,0 +1,5 @@
+HTML elements have opening tags like <h1> and closing tags like </h1>.
+
+The text for an element goes between its opening and closing tags.
+
+Heading tags have a top-down hierarchy from h1 to h6. HTML defines the six levels for headings.h1 is used to define the most important heading. h6 is used to define the least important headings.Don't use headings to make your text look big or bold.

@@ -1,0 +1,16 @@
+<!DOCTYPE html> :- This is known as the document type declaration, often abbreviated as "DOCTYPE".It is a special instruction at the beginning of an HTML document. Its primary purpose is to specify which version of HTML the document is written in.i
+      
+      <!DOCTYPE html>
+It is specifying that the document is written in HTML5.
+Note - The DOCTYPE declaration serves several important purposes:-
+1. Version declaration: It informs web browsers and validators about the versions of HTML or XML used in the document. Different versions of HTML may have different rules and features, so browsers need to know which version to use for rendering.
+ 
+
+	** Validators - Validators are tools or software programs used to check the correctness and compilance (to make ensure that you adhere to to a set of rules, regulations, standards, or guidelines that have been established by authorities, organizations, or industry bodies. It is a critical concept in various fields, including law, business, technology, finance, healthcare, and more. Compliance ensures that individuals, organizations, products, or processes adhere to specific requirements and meet legal or industry standards.) of web documents, such as HTML, CSS and XML with established standards and specifications. They are valuable for web developers, designers and content creators to ensure that their web content is error-free, follows best practices and displays consistently across different web browsers and platforms.
+
+Some common type of validators and their purposes:
+
+1. HTML Validators : These tools check the syntax and structure of HTML documents to ensure they conform ("To conform" means to comply with or adhere to established rules, standards, expectations, or social norms. It involves adjusting one's behavior, actions, or beliefs to align with the prevailing requirements or the accepted practices of a particular group, organization, culture, or context. Conforming can take various forms, and it is often influenced by external pressures or societal influences.) to the specified version of HTML(e.g., HTML5). Popular HTML valdators include the W3C Markup validation service and various browser developer tools.
+
+2. CSS Validators: CSS validators examine cascading style sheets (CSS) to identify syntax errors, invalid properties or values, and other issues that might affect the rendering of web pages. The W3C CSS validation Service is a widely used tool for this purpose.
+

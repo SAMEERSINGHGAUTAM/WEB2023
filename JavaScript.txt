@@ -1,0 +1,47 @@
+JavaScript (JS) is a lightweight interpreted (or just in time compiled language) with 
+first-classs functions. 
+
+just-in-time compiled :-
+In computing, just-in-time (JIT) compilation (run-time compilations) is compilation
+(of computer code) during execution of a program(at run time) rather than before execution.
+They may consist of source code translation but is more commonly bytecode translation to 
+machine code, which is then executed directly.
+
+First-class Function :-
+A programming language is said to have First-class functions when functions in that language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
+
+Example :-
+-----xx-----xx-----xx------
+Assigning a function to a variable 
+
+const foo = () => {
+	console.log("foobar");
+};
+foo();
+//
+
+----xx---xx---xx-----xx------
+We assigned an Anonymous Function in a Variable, then we used that variable to invoke the function by adding parentheses () at the end.
+Note - Even if your function was named, you can use the variable name to invoke it. Naming it will be helpful when debugging your code. But it won't effect the way we invoke it.
+
+-----xx-----xxx------xx-----xxx-------
+Passing a function as an argument
+
+function sayHello() {
+	return "Hello, ";
+}
+function greeting(helloMessage, name) {
+	console.log(helloMessage() +name);
+}
+// Pass 'sayHello' as an argument to 'gretting' function 
+
+gretting(sayHello, "JavaScript!");
+
+// Hello, JavaScript!
+-----xx-----xx------xx-----xx------xx------
+
+We are passing our sayHello() function as an argument to the greeting() function,
+this explains how we are treating the function as a value.
+
+Note- The function that we pass as an argument to another function is called a callback function. sayhello() is a callback function.
+
