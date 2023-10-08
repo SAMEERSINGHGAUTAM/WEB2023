@@ -44,4 +44,7 @@ We are passing our sayHello() function as an argument to the greeting() function
 this explains how we are treating the function as a value.
 
 Note- The function that we pass as an argument to another function is called a callback function. sayhello() is a callback function.
+Anonymous function :-
+It is a function that does not have any name associated with it. Normally we use the function
+
 
